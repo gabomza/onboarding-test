@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background {
+  background-color: #F0F3F5;
+  height: 100vh;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*
+Home page
+*/
+ul.homePageList {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*
+Common step container styles
+*/
+
+.stepContainer {
+  background-color: #FFF;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: auto;
+  margin: auto;
+  max-height: 80vh;
+  padding: 50px 10px;
+  text-align: center;
+  width: 60%;
 }
 
-.App-link {
-  color: #61dafb;
+.stepContainerText {
+  color: #404040;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stepContainerTitle {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 39px;
+  margin: auto auto 40px;
+  width: 60%;
+}
+
+.stepContainerSubTitle {
+  font-size: 16px;
+  line-height: 24px;
+  margin: auto auto 40px;
+  width: 60%;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: space-between;
+}
+
+.iconText {
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.stepError {
+  color: red;
+  font-size: 14px;
+  margin: 12px auto;
+}
+
+.buttonContainer button,
+.stepsButtonContainer button {
+  background: #0072CE;
+  border: 0px;
+  border-radius: 50px;
+  color: #FFF;
+  cursor: pointer;
+  height: 42px;
+  text-transform: uppercase;
+}
+
+button.disabled {
+  background: #ccc;
+  cursor: auto;
+}
+
+.stepsButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.buttonContainer button {
+  width: 390px;
+}
+
+.stepsButtonContainer button {
+  width: 290px;
+}
+
+.backButtonContainer {
+  margin: 50px auto 0px;
+  text-align: center;
+  width: 80%;
+}
+
+.backButtonContainer a {
+  color: #0072CE;
+  cursor: pointer;
+  font-size: 13px;
 }

@@ -1,0 +1,27 @@
+{
+  "steps": [
+    {
+      "order": 1,
+      "title": "General Information",
+      "subtitle": "We use this information to calculate fuel costs and applicable incentives.",
+      "layout": "<div class=\"mainContainer\"><div class=\"inputContainer\"><label>Zip Code</label/><input type='text' name='zipCode' id='zipCode' /></div></div>",
+      "styles": ".mainContainer { width: 100%; } .inputContainer { width: 100%; margin: 0 auto; text-align: center; }"
+    },
+    {
+      "order": 2,
+      "title": "Step 3"
+    },
+    {
+      "order": 3,
+      "title": "Step 4"
+    },
+    {
+      "order": 4,
+      "title": "Step 5"
+    },
+    {
+      "order": 5,
+      "title": "Step 6"
+    }
+  ]
+}
